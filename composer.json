@@ -1,0 +1,16 @@
+{
+    "name": "adrilo/rei-price-checker",
+    "description": "REI Price Checker",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": ["REI", "price", "checker"],
+    "homepage": "https://github.com/adrilo/rei-price-checker",
+    "require": {
+        "box/spout": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PriceChecker\\": "src/"
+        }
+    }
+}
